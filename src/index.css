@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .check-item {
+      @apply bg-gradient-to-tr from-cyan-300 via-blue-500 to-purple-500;
+    }
+}
