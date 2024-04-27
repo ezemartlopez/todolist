@@ -14,7 +14,7 @@ function AddTask({addTask}) {
                 <path d="M12 4.5v15m7.5-7.5h-15" />
             </svg>
         </div>
-        <input type="text" name="taskInput" className="outline-none px-1 bg-inherit text-base font-semibold font-josefin text-slate-500 dark:text-slate-400" placeholder="Create a new todo" />
+        <input type="text" name="taskInput" className="flex-grow outline-none px-1 bg-inherit text-base font-semibold font-josefin text-slate-500 dark:text-slate-400" placeholder="Create a new todo" />
     </form>
   )
 }
