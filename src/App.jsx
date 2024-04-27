@@ -12,7 +12,7 @@ export default function App() {
         <div className="absolute z-0 w-full h-[300px] bg-purple-800 ">
           <BackGroundImage modeActive={mode}/>
         </div>
-        <main className="absolute z-10 w-full px-8 h-full flex justify-center">
+        <main className="absolute z-10 w-full px-4 sm:px-8 h-full flex justify-center">
           <div className="sm:w-[540px] w-full h-full pt-16 flex flex-col">
             <Navbar toggle={toggleMode} modeActive={mode}/>
             <PanelTasks/>
