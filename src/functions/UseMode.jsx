@@ -26,7 +26,7 @@ function UseMode() {
     localStorage.setItem('mode', mode);
   }, [mode]); // Dependency array ensures effect runs only on mode updates
 
-  return { Modedark:mode, toggleMode };
+  return { mode, toggleMode };
 }
 
 export default UseMode;
